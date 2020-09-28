@@ -67,10 +67,10 @@ print("======================")
 
 
 elif inpu == 2
-os.import(cd $HOME)
-os.import(cd ..)
-os.import(cd usr)
-os.import(cd etc)
+os.import("cd $HOME")
+os.import("cd ..")
+os.import("cd usr")
+os.import("cd etc")
 print('''
 >>>Before you proceed:
         •You can use your own ASCII text for setting as
@@ -81,4 +81,8 @@ welcome screen
 print("# Can we proceed now ? (y/n)")
 nano = input("[+]  ")
 if nano == y
-      os.import(
+print(''' ''')
+      os.import("rm -rf motd")
+      os.import("nano motd")
+      os.import("cd $home")
+      os.import("apt update && apt upgrade -y")
