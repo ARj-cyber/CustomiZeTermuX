@@ -81,8 +81,13 @@ welcome screen
 print("# Can we proceed now ? (y/n)")
 nano = input("[+]  ")
 if nano == y
-print(''' ''')
+print('''Lets start ....
+>>> enter y to continue ''')
+     start = input(">>> ")
+     if start == y
       os.import("rm -rf motd")
       os.import("nano motd")
       os.import("cd $home")
       os.import("apt update && apt upgrade -y")
+else print("ok bie... bieee...")
+else 
