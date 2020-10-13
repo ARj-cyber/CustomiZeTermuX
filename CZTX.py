@@ -37,7 +37,7 @@ print("=============================================")
 
 print("
 1 . Update your termux
-2 . Customize homescreen with your own ASCII art
+2 . Customize homescreent
 3 . Contribute
 4 . Help
 ")
@@ -86,8 +86,10 @@ print('''Lets start ....
      start = input(">>> ")
      if start == y
       os.import("rm -rf motd")
-      os.import("nano motd")
-      os.import("cd $home")
-      os.import("apt update && apt upgrade -y")
-else print("ok bie... bieee...")
-else 
+      os.import("nano motd"      os.import("cd $home")
+      os.import("apt  && apt upgrade -y")
+      else print("ok bie.. bieee...")
+           break
+else print("c u soon")
+     break
+esle
